@@ -30,3 +30,81 @@ RetailRunner is a mobile and backend solution designed to streamline **order ful
 1. **Clone this repository:**
    ```bash
    git clone https://github.com/yourusername/retailrunner.git
+
+Navigate to the project folder:
+
+cd retailrunner
+
+Set up Docker environment:
+
+    Install Docker if you haven't already. 🐳
+
+    Build and run the Docker containers:
+
+    docker-compose up --build
+
+Backend setup:
+
+    Install Python dependencies:
+
+pip install -r backend/requirements.txt
+
+Run the backend FastAPI server:
+
+    uvicorn backend.app.main:app --reload
+
+Frontend setup:
+
+    Install Flutter dependencies:
+
+flutter pub get
+
+Run the Flutter app on your emulator or device:
+
+        flutter run
+
+📱 Usage:
+
+    Access the FastAPI backend at http://localhost:8005.
+
+    Use the mobile app to sign in as a worker or admin and manage orders.
+
+    Admin users can approve or reject orders based on the submitted photos.
+
+🛠️ Contributing:
+
+We welcome contributions! Please follow the steps below to contribute:
+
+    Fork the repository. 🍴
+
+    Create a new branch:
+
+git checkout -b feature-name
+
+Commit your changes:
+
+git commit -m "Add feature"
+
+Push your branch:
+
+    git push origin feature-name
+
+    Open a pull request. 🔄
+
+📝 License:
+
+This project is proprietary. You are free to view, learn from, and fork the code, but commercial usage and redistribution are not allowed without prior permission. Please see LICENSE for more details. 🔒
+💬 Contact & Support:
+
+If you have any questions or need support, feel free to open an issue or contact me directly. 😊
+
+
+This README now has:
+
+- **Detailed Installation Steps** (Backend, Frontend, Docker setup).
+- **Usage Information** (How to interact with the app).
+- **Contributing Instructions** (For anyone wishing to contribute).
+- **License Information** (So it's clear that it's proprietary).
+- **Contact/Support Information**.
+
+Let me know if you need anything else!
