@@ -97,14 +97,3 @@ This project is proprietary. You are free to view, learn from, and fork the code
 💬 Contact & Support:
 
 If you have any questions or need support, feel free to open an issue or contact me directly. 😊
-
-
-This README now has:
-
-- **Detailed Installation Steps** (Backend, Frontend, Docker setup).
-- **Usage Information** (How to interact with the app).
-- **Contributing Instructions** (For anyone wishing to contribute).
-- **License Information** (So it's clear that it's proprietary).
-- **Contact/Support Information**.
-
-Let me know if you need anything else!
